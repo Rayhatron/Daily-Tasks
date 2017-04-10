@@ -1,0 +1,92 @@
+body {
+  margin: 95%;
+  width: 95%;
+  /* Standard syntax */
+  background: linear-gradient(309deg, rgba(99,214,250,1) 0.14%, rgba(30,142,140,1) 99.61% );
+
+  /* For browsers that do not support gradients */
+   background: #A1CAF1;
+
+  /* ms ( IE 10.0+ ) */
+  background:-ms-linear-gradient(309deg, rgba(99,214,250,1) 0.14%, rgba(30,142,140,1) 99.61% );
+
+  /* WebKit (Chrome 10.0+, safari 5.1+ )*/
+  background:-webkit-linear-gradient(309deg, rgba(99,214,250,1) 0.14%, rgba(30,142,140,1) 99.61% );
+
+  /* Moz ( Moz 3.6+ )*/
+  background:-moz-linear-gradient(309deg, rgba(99,214,250,1) 0.14%, rgba(30,142,140,1) 99.61% );
+
+  /* Opera ( opera 11.6+ )*/
+  background:-o-linear-gradient(309deg, rgba(99,214,250,1) 0.14%, rgba(30,142,140,1) 99.61% );
+
+
+}
+
+
+
+input[type=text],
+input[type=email],
+textarea,
+textarea.form-control {
+ height: 50px;
+ margin: 0;
+ padding: 0 20px;
+ vertical-align: middle;
+ font-family: "roboto", Courier, monospace;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 50px;
+}
+
+textarea,
+textarea.form-control {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 30px;
+}
+
+/*=====Top content =====*/
+
+
+.form-box {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 10%;
+}
+
+.form-top {
+	padding:25px 25px 15px 25px;
+	text-align: left;
+	font-family: "roboto", Courier, monospace;
+}
+
+.form-bottom {
+	padding: 25px 25px 30px 25px;
+	text-align: left;
+}
+
+.form-bottom form textarea {
+	height: 100px;
+}
+
+
+
+#contact-name {
+  box-shadow: 2px 4px 5px #000;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#contact-email {
+  box-shadow: 2px 4px 5px #000;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#contact-antispam {
+  box-shadow: 2px 4px 5px #000;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#contact-message {
+  box-shadow: 2px 4px 5px #000;
+  border-radius: 5px 5px 5px 5px;
+}
